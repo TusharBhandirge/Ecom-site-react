@@ -1,0 +1,129 @@
+
+:root{
+    --background-color : #E5E5E5;
+    --empty-space-color : #C4C4C4;
+    --color-white : white;
+}
+
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: var(--background-color);
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    gap: 6.4rem;
+    font-size: 1.6rem; 
+}
+
+/*header section*/
+.header-section{
+
+    height: 8rem;
+    background-color: var(--color-white);
+    display: flex;
+    padding: 0 4rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.searchbar{
+    width: 50rem;
+    padding: 1rem;
+}
+
+.header-action-div{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+/*header section end*/
+
+
+.category-section, .banner-section , .trending-section{
+    margin: 0 16.5rem;
+}
+
+.category-section{
+    height: 14rem;
+    display: flex;
+    gap: 4rem;
+
+}
+
+.banner-section{
+    background-color: var(--empty-space-color);
+    height: 69.1rem;
+}
+
+.trending-section{
+    display: flex;
+    gap : 2.4rem;
+    height: 36.5rem;
+}
+
+
+.trending-container{
+    flex-grow: 1;
+}
+
+.footer-section{
+    height: 8rem;
+    background-color: blue;
+}
+
+.category-bg-img-div{
+    height: 14rem;
+    width :28.6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(../Image_resources/sample_football_img.jpg);
+}
+
+.footer{
+    background-color: var(--empty-space-color);
+    color: black;
+}
+
+
+/* Product card */
+.product-card{
+    background-color: var(--color-white);
+    display: flex;
+    flex-direction: column;
+    height: 51.5rem;
+    width: 30rem;   
+    align-items: center;
+    justify-content: start;
+}
+
+.product-card-btn{
+    height: 8rem;
+    background-color: var(--empty-space-color);
+    align-self: stretch;
+    font-size: 2rem;
+}
+
+.product-card-amount{
+    font-weight:bolder;
+}
+
+.product-name{
+    font-size: 2rem;
+}
+
+.aside-filter{
+    background-color: var(--color-white);
+    
+    border: none;
+}

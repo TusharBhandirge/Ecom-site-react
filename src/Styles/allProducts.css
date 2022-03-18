@@ -1,0 +1,39 @@
+
+
+
+.page-content{
+    flex-grow: 1;
+    min-height: 73vh;
+    max-width: 120rem;
+    background-color: var(--background-color);
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding:2rem;
+}
+ 
+
+.AllProducts-container{
+    display: flex;
+    gap: 1.7rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.all-Product-page{
+    gap: 0;
+}
+
+.filter-title{
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.range{
+    display: flex;
+    justify-content: space-between;
+}
+
+.price-slider{
+    width: 100%;
+}

@@ -1,0 +1,21 @@
+.category-text-div{
+    background-color: var(--color-white);
+    text-align: center;
+}
+
+
+.trending-container{
+    background-color: var(--empty-space-color);
+    padding: 6.4rem;
+    display: flex;
+    gap: 6.4rem;
+}
+
+.trending-img-div{
+    background-color: var(--color-white);
+    height: 23.7rem;
+    width: 20.4rem;
+
+}
+
+
