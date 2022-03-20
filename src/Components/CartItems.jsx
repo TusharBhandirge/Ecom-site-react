@@ -1,9 +1,9 @@
 import React from "react";
+import "../Styles/myCart.css";
 
 
 function CartItems(){
     return(  <div className="ItemsInCart"
-    style={{ display: "flex", flexDirection: "column", gap : "1rem" }}
   >
     <div className="horizontal-card">
       <img src="https://picsum.photos/308/390" alt="" srcset="" />
