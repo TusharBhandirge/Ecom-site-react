@@ -5,6 +5,7 @@ import { Footer } from "./Components/Footer";
 import {HomePage} from "./Pages/HomePage";
 import {WishListPage} from "./Pages/WishListPage"
 import "./Styles/Common.css"
+import { MyCartPage } from "./Pages/MyCartPage";
 
 
 function App() {
@@ -14,7 +15,8 @@ function App() {
      <div className ="main-container">
       <Header/>
       {/* <HomePage/> */}
-      <WishListPage/>
+      {/* <WishListPage/> */}
+      <MyCartPage/>
       <Footer/>
       </div>
     
